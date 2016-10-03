@@ -1,7 +1,8 @@
 // !------ BChat
-// !------ VERSI : 2.1
+// !------ VERSI : 2.1 BETA
 // !------ UPDATED 3 OKTOBER 2016
 // !------ by Mochammad Bayu Nugraha
+// !------ SILAHKAN DIKEMBANGKAN LAGI GAN.. :D
 
 $(document).ready(function() {
   $('#masuk').on('click', function() {
@@ -53,7 +54,7 @@ chatsRef.on("child_added", function(snap) {
 
 chatsRef.on("value", function(snapshot) {
   var jum = snapshot.numChildren();
-  $('html head').find('title').text("BChat " + "(" + jum + ")");
+  $('html head').find('title').text("BChat " + "(" + jum + ")"); // -- UPDATE TITLE BAR PADA BROWSER
 });
 }
 
@@ -76,7 +77,7 @@ $(document).ready(function() {
 // --- JIKA DI ENTER,, KIRIM LANGSUNG
   $('#message').keypress(function(e) {
     if (e.which == 13) {
-        kirim(); // PROSES KIRIM UNTUK DI SAVE
+        kirim(); // PANGGIL PROSES KIRIM UNTUK DI SAVE
 
     }
 });

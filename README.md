@@ -24,4 +24,4 @@ ganti dengan alamat akun firebase kalian.
 <a href="http://chat.bayyu.me" target="_blank"><h4>Demo</h4></a>
 
 
-<a href="http://github.com/MuhBayu/BChat/blob/master/LICENSE"><h4>License</h4></a>
+<a href="https://github.com/MuhBayu/BChat/blob/master/LICENSE"><h4>License</h4></a>

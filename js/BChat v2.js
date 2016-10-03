@@ -1,7 +1,8 @@
 // !------ BChat
 // !------ VERSI : 2 BETA
-// !------ UPDATED 3 OKTOBER 2016
-// !------ by Mochammad Bayu Nugraha
+// !------ UPDATED: 3 OKTOBER 2016
+// !------ Muhammad BayuNugraha
+// !------ http://chat.bayyu.me
 // !------ SILAHKAN DIKEMBANGKAN LAGI GAN.. :D
 
 $(document).ready(function() {
@@ -75,23 +76,24 @@ function kirim() {
       h = a.getHours(),
       m = a.getMinutes();
 var bulan = new Array();
-    bulan[0] = "Jan";
-    bulan[1] = "Feb";
-    bulan[2] = "Mar";
-    bulan[3] = "Apr";
-    bulan[4] = "Mei";
-    bulan[5] = "Jun";
-    bulan[6] = "Jul";
-    bulan[7] = "Aug";
-    bulan[8] = "Sep";
-    bulan[9] = "Okt";
+    bulan[0]  = "Jan";
+    bulan[1]  = "Feb";
+    bulan[2]  = "Mar";
+    bulan[3]  = "Apr";
+    bulan[4]  = "Mei";
+    bulan[5]  = "Jun";
+    bulan[6]  = "Jul";
+    bulan[7]  = "Aug";
+    bulan[8]  = "Sep";
+    bulan[9]  = "Okt";
     bulan[10] = "Nov";
     bulan[11] = "Des";
 
 var c     =   bulan[a.getMonth()];
-var date  =   d + '/' + c + '/' + y + ' ' + h + ':' + m;
+var date  =   d + '/' + c + '/' + y + ' ' + h + ':' + m; // --- TANGGAL / BULAN / TAHUN + JAM : MENIT
   if ($('#user').val() != '' && $('#message').val() != '') {
     var pesan = $('#message').val();
+    // PUSH DATA KE SERVER
     chatsRef
     .push({
           nama:     sensor($('#user').val()),
@@ -139,36 +141,14 @@ function Tampil_Chat(chat) { // ---- PROSES MENAMPILKAN CHAT DARI SERVER..
 }
 
 // ----  :v BIAR LEBIH KEREN.. DAN TIDAK MENGGANGGU , FITUR SENSOR KATA KOTOR :v
+// ----  SORRY GAK FULL GAN :v INI KAN UNTUK SHARE,, SILAHKAN DITAMBAHIN SENDIRI
 function sensor(kata) {
   var text = kata;
     var array = {
-            "anjing":"*guguk", 
-            "babi":"b*b*", 
-            "bangsat":"*sensor",
-            "bangsad":"*sensor",
-            "bngsd":"*sensor",
-            "fuck":"f*ck",
-            "fvck":"f*ck",
-            ":fuck":"<img src='https://s.kaskus.id/images/smilies/sumbangan/fuck-4.gif'>",  
-            "ngentot":"*sensor", 
-            "kontol":"*sensor",
-            "titit":"*sensor",
-            "memek":"*sensor*",
-            "goblok":"*sensor",
-            "tolol":"to*ol",
-            "bego":"b*go",
-            "ngento":"*sensor",
-            "anjeng":"*sensor",
-            "monyet":"*sensor",
-            "monyet":"*sensor",
-            "bitch":"b*tc*",
-            "ntol":"*sensor", 
-            ":D":"<img src='https://s.kaskus.id/images/smilies/sumbangan/14.gif'>",
-            ":p":"<img src='https://s.kaskus.id/images/smilies/sumbangan/6.gif'>",
-            ":v":"<img src='https://s.kaskus.id/images/smilies/ngakaks.gif'>",
-            "tai":"<img src='https://s.kaskus.id/images/smilies/sumbangan/shit-3.gif'>" 
+            "kucing":"*meong",
+            "netnot":"*tiiitt",
+            "tikus" :"*mouse"
           };
-
 
     for (var val in array)
       text = text.replace(new RegExp(val, "gi"), array[val]);

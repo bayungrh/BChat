@@ -4,11 +4,14 @@ Chat Realtime dengan Firebase. Silahkan dikembangkan gan, dan jangan lupa di For
 Dibuat menggunakan:
 - Bootstrap
 - jQuery
+- Javascript
 - Firebase
 - PHP
 
 Fitur:
 - Realtime
+- Send by Enter
+- Safe Word
 - Sound Notification
 - Chat Count in Titlebar
 - Send Link

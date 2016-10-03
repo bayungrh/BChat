@@ -1,0 +1,151 @@
+@font-face{
+   font-family:"HelveticaNeue";
+   src:url("http://www.freefontsdownload.net/data/502/h/helveticaneue/HelveticaNeue.ttf");
+}
+body{
+   background: #fff;
+   margin: 0;
+}
+.navbar.navbar-default {background: #fff; border:none;border-radius: 0; margin: 0;
+-webkit-box-shadow:  0px -2px 4px 5px rgba(0, 0, 0, .1);
+   -moz-box-shadow:   0px -2px 4px 5px rgba(0, 0, 0, .1);
+   box-shadow:  0px -2px 4px 5px rgba(0, 0, 0, .1);      
+   }
+.navbar-header>a.navbar-brand,.navbar-header>a.navbar-brand:hover,.navbar-header>a.navbar-brand:focus{color: #415763; outline: none;}
+.navbar-text{color: #000;}
+a        { color: #BAF8FF; }
+a:hover  { color: #fff;    }
+#header {
+   /* background: #075E55; */
+   background: #fff;
+   color: #fff;
+   border: #00887A;
+   padding: 12px;
+   width: 100%;
+   z-index: 99;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+}
+
+.konten {margin-top:70px;margin-bottom:150px;}
+      blockquote {padding: 18px 8px; padding-left: 22px; color: #333;}
+      blockquote.merah {border-left: solid 9px #D04E4E; background: #f98484; color: #333;}
+      blockquote.merah:hover {background: #EF5A5C;}
+.notip {
+   margin-top: 100px
+}
+#welc {
+   -ms-user-select:none;
+   user-select:none;
+   -webkit-user-select:none;
+   -moz-user-select:none;
+   cursor: pointer;
+}
+#loadmain{
+   position: fixed;
+   color: #fff;
+   background: #4385F5;
+   left: 0px;
+   top: 0px;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   text-align: center;
+   display: none;
+}
+.btn-primary {
+   padding: 15px 45px;
+   border: none;
+   border-radius: 2px;
+   font-size: 13pt;
+   background: #175FD3;
+}
+.user-text {
+   font-size: 15pt;
+   border: none;
+   padding: 9px 9px;
+   border-bottom: solid 2px #fff;
+   color: #fff;
+   background: transparent;
+   text-align: center;
+}
+.user-text:focus {
+   color: #286090;
+   border: none;
+}
+#pesan_nya img {
+   max-width: 100%;
+}
+.usr {
+   font-style: italic;
+   margin: 5px;
+   font-size: 9.7pt;
+   /*color: #A8A6A3;*/ color:#4C4C4C;
+}
+#waktu {display: block;color: #A8A6A3; font-size: 7.7pt; margin-top:4px;}
+.kiri { background: #4385F5; border-bottom-left-radius: 11px;border-bottom-right-radius: 14px; border-top-right-radius: 14px;}
+.kanan {  background: #0BADC1; border-bottom-right-radius: 11px;border-bottom-left-radius: 14px; border-top-left-radius: 14px; /* background: #00B7DF; */}
+
+.isi_pesan {
+   color: #fff;
+   padding: 9px 14px;
+   font-size: 12.6pt;
+   margin-top: 5px;
+   display: block;
+   width: 100%;
+   word-break: break-all;
+   -webkit-box-shadow:  0px -2px 9px 4px rgba(0, 0, 0, .1);
+   -moz-box-shadow:   0px -2px 9px 4px rgba(0, 0, 0, .1);
+   box-shadow:  0px 0px 12px 0px rgba(0, 0, 0, .1);
+}
+.panel-footer:focus {
+   background: #fff;
+   box-shadow: 0;
+   /*border: 1px solid #3498db; */
+   border: 1px solid #075E55;
+   color: #075E55;
+   outline: none;
+}
+.chat-input {
+   border-radius: 0;
+   padding: 10px;
+   width: 100%;
+   border: none;
+}
+.chat-input:focus {
+   background: #fff;
+   box-shadow: 0;
+   /*border: 1px solid #3498db; */
+   border: 1px solid #075E55;
+   color: #075E55;
+   outline: none;
+}
+.text-pesan {
+   display: block;
+   width: 100%;
+   border-radius: 0;
+   background-color: #fbfbfb;
+   padding: 12px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   border: 3px solid rgba(0,0,0,0);
+   position: fixed;
+   bottom: 0px;
+   left: 0px;
+   -webkit-box-shadow:  0px -2px 4px 2px rgba(0, 0, 0, .1);
+   -moz-box-shadow:   0px -2px 4px 2px rgba(0, 0, 0, .1);
+   box-shadow:  0px -2px 4px 2px rgba(0, 0, 0, .1);                     
+}
+.kirim_pesan {margin-top: 50px;}
+.text-pesan:focus {
+   background: #fff;
+   box-shadow: 0;
+   /*border: 1px solid #3498db; */
+   /* border: 1px solid #4385F5; */
+   color: #4385F5;
+   outline: none;
+   padding: 13px;
+}

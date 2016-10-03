@@ -6,17 +6,17 @@ body{
    background: #fff;
    margin: 0;
 }
-.navbar.navbar-default {background: #fff; border:none;border-radius: 0; margin: 0;
--webkit-box-shadow:  0px -2px 4px 5px rgba(0, 0, 0, .1);
+.navbar.navbar-default {
+   background: #fff; border:none;border-radius: 0; margin: 0;
+   -webkit-box-shadow:  0px -2px 4px 5px rgba(0, 0, 0, .1);
    -moz-box-shadow:   0px -2px 4px 5px rgba(0, 0, 0, .1);
    box-shadow:  0px -2px 4px 5px rgba(0, 0, 0, .1);      
-   }
+}
 .navbar-header>a.navbar-brand,.navbar-header>a.navbar-brand:hover,.navbar-header>a.navbar-brand:focus{color: #415763; outline: none;}
 .navbar-text{color: #000;}
 a        { color: #BAF8FF; }
 a:hover  { color: #fff;    }
-#header {
-   /* background: #075E55; */
+#header  {
    background: #fff;
    color: #fff;
    border: #00887A;
@@ -83,9 +83,9 @@ a:hover  { color: #fff;    }
    font-size: 9.7pt;
    /*color: #A8A6A3;*/ color:#4C4C4C;
 }
-#waktu {display: block;color: #A8A6A3; font-size: 7.7pt; margin-top:4px;}
-.kiri { background: #4385F5; border-bottom-left-radius: 11px;border-bottom-right-radius: 14px; border-top-right-radius: 14px;}
-.kanan {  background: #0BADC1; border-bottom-right-radius: 11px;border-bottom-left-radius: 14px; border-top-left-radius: 14px; /* background: #00B7DF; */}
+#waktu   { display: block;color: #A8A6A3; font-size: 7.7pt; margin-top:4px;}
+.kiri    { background: #4385F5; border-bottom-left-radius: 11px;border-bottom-right-radius: 14px; border-top-right-radius: 14px;}
+.kanan   { background: #0BADC1; border-bottom-right-radius: 11px;border-bottom-left-radius: 14px; border-top-left-radius: 14px; /* background: #00B7DF; */}
 
 .isi_pesan {
    color: #fff;
@@ -98,28 +98,6 @@ a:hover  { color: #fff;    }
    -webkit-box-shadow:  0px -2px 9px 4px rgba(0, 0, 0, .1);
    -moz-box-shadow:   0px -2px 9px 4px rgba(0, 0, 0, .1);
    box-shadow:  0px 0px 12px 0px rgba(0, 0, 0, .1);
-}
-.panel-footer:focus {
-   background: #fff;
-   box-shadow: 0;
-   /*border: 1px solid #3498db; */
-   border: 1px solid #075E55;
-   color: #075E55;
-   outline: none;
-}
-.chat-input {
-   border-radius: 0;
-   padding: 10px;
-   width: 100%;
-   border: none;
-}
-.chat-input:focus {
-   background: #fff;
-   box-shadow: 0;
-   /*border: 1px solid #3498db; */
-   border: 1px solid #075E55;
-   color: #075E55;
-   outline: none;
 }
 .text-pesan {
    display: block;

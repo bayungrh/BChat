@@ -10,6 +10,7 @@ Dibuat menggunakan:
 Fitur:
 - Realtime
 - Sound Notification
+- Chat Count in Titlebar
 - Send Link
 - Send Image
 

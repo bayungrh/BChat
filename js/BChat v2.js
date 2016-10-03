@@ -1,5 +1,5 @@
 // !------ BChat
-// !------ VERSI : 2.1 BETA
+// !------ VERSI : 2 BETA
 // !------ UPDATED 3 OKTOBER 2016
 // !------ by Mochammad Bayu Nugraha
 // !------ SILAHKAN DIKEMBANGKAN LAGI GAN.. :D

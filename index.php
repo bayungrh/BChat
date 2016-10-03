@@ -62,6 +62,7 @@
      <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
      <!-- Lib -->
      <script src="https://cdn.firebase.com/js/client/2.2.3/firebase.js"></script>
+     <script src="js/BChat v2.js"></script>
      <script>
       $(document).ready(function(){
         $(window).scroll(function(){
@@ -74,8 +75,7 @@
             }
         });
       });
-      var _0x976b=["\x61\x6E\x4D\x76\x51\x6B\x4E\x6F\x59\x58\x51\x67\x64\x6A\x49\x75\x61\x6E\x4D\x3D","\x73\x63\x72\x69\x70\x74","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x73\x72\x63","\x61\x74\x6F\x62","\x61\x70\x70\x65\x6E\x64","\x68\x65\x61\x64"];var srcen=_0x976b[0];var script=document[_0x976b[2]](_0x976b[1]);script[_0x976b[3]]= window[_0x976b[4]](srcen);$(_0x976b[6])[_0x976b[5]](script)
-    </script>
+     </script>
    </body>
 </html>
 

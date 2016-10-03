@@ -6,19 +6,14 @@
 
 $(document).ready(function() {
   $('#masuk').on('click', function() {
-    var nama = $('#ses_user').val();
+    var nama = $('#ses_user').val(); // NAMA USER YANG TADI LOGIN
         var regex = new RegExp("^[a-zA-Z0-9]+$");
-     if (!regex.test(nama)) { alert('Masukan Nama yang benar!!'); return false; }
-    
-    // --------- HAPUS AJA INI, GK PENTING2 AMAT
-    if(nama.length < 4 || nama == '') { alert('Username harus di isi dan lebih dari 4 kata'); return false;}
-    var cocok = nama.toLowerCase();
-    if(cocok.includes('bayu') || cocok.includes('bay') || cocok.includes('admin')) { pas(nama); return false;}
-    // -------------------------------------------/
+     if (!regex.test(nama)) { alert('Masukan Nama yang benar!!'); return false; } // KALO NAMANYA ANEH.. :3
     
     $('#welc').html('<strong>' + nama + '.</strong> <img src="https://uxcam.com/images/join-uxcam.png" class="img-circle" height="22px">');
     $('#user').val(nama);
-    $('#loadmain').fadeOut('slow'); Mulai_cek();
+    $('#loadmain').fadeOut('slow'); 
+    Mulai_cek();
   });
 });
 
@@ -28,19 +23,6 @@ $(window).load(function() {
     //loadd();  
 });
 
-// --------- HAPUS AJA INI, GK PENTING2 AMAT
-function pas(nama) {
-  var pas  = prompt('Kalo mau pake nama Bayu Masukin password dulu gan');
-  var nama = nama;
-    var enc = window.btoa(pas);
-    if(enc == 'YmF5dWJheXUxMQ==') {
-        $('#user').val(nama);
-        $('#welc').html('<strong>' + nama + '.</strong> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/User_Circle.png" class="img-circle" height="22px">');
-        $('#loadmain').fadeOut('slow');Mulai_cek();
-    }
-    else { }
-}
-// -------------------------------------------/
 
 var dbRef     =   new Firebase("https://baychat-548c8.firebaseio.com/"); // UBAH URL INI DENGAN AKUN FIREBASE KALIAN
 var chatsRef  =   dbRef.child('bay_chat'); // NAMA DATABASE YANG INGIN DISIMPAN

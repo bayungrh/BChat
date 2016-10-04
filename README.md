@@ -27,7 +27,7 @@ ganti dengan alamat akun firebase kalian.
 
 
 SS:
-<img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/14390801_533006376895685_6423232546240100591_n.jpg?oh=8c797e9d98380e9345c68fbd603947db&oe=58ACB9E4">
+<img src="https://s21.postimg.org/7s057ewdj/Screen_Shot_20161004170103.png">
 
 
 

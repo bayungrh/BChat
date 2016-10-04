@@ -26,7 +26,7 @@ ganti dengan alamat akun firebase kalian.
 
 
 
-<img src="https://s10.postimg.org/4ru1q9i55/BChat.jpg">
+<img src="https://s16.postimg.org/o3cdpifqt/BChat.jpg">
 
 
 

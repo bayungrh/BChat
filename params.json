@@ -1,0 +1,6 @@
+{
+  "name": "Bchat",
+  "tagline": "Chat Realtime dengan Firebase",
+  "body": "# BChat\r\nChat Realtime dengan Firebase. Silahkan dikembangkan gan, dan jangan lupa di Fork & Like :D\r\n\r\nDibuat menggunakan:\r\n- Bootstrap\r\n- jQuery\r\n- Javascript\r\n- Firebase\r\n- PHP\r\n\r\nFitur:\r\n- Realtime\r\n- Send by Enter\r\n- Safe Word\r\n- Sound Notification\r\n- Chat Count in Titlebar\r\n- Send Link\r\n- Send Image\r\n\r\n<h1>Setting</h1>\r\n\r\n> \r\nSetting firebase pada 'BChat v2.js' pada bagian 'https://baychat-548c8.firebaseio.com/' \r\nganti dengan alamat akun firebase kalian.\r\n> \r\n\r\n\r\n\r\n\r\n\r\n![](https://s16.postimg.org/o3cdpifqt/BChat.jpg)\r\n\r\n\r\n\r\n\r\n\r\n# [DEMO](http://chat.bayyu.me)\r\n# [LICENSE](https://github.com/MuhBayu/BChat/blob/master/LICENSE)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
